@@ -1,34 +1,46 @@
-<mxfile host="app.diagrams.net" modified="2022-06-26T12:47:03.534Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="w2ckxIFftmzby39uFU06" version="20.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-27T08:31:47.805Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="4W4qYELU-k0oB9pGPGGH" version="20.0.3" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="2033" dy="808" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2742" dy="1292" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value="MSME" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="120" y="80" width="100" height="650" as="geometry" />
+          <mxGeometry x="120" y="80" width="100" height="760" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
-          <mxGeometry x="45" y="70" width="10" height="580" as="geometry" />
+          <mxGeometry x="45" y="70" width="10" height="690" as="geometry" />
+        </mxCell>
+        <mxCell id="P4GT0S7rN5UcusYKCqly-28" value="" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-1">
+          <mxGeometry x="0.129" y="20" relative="1" as="geometry">
+            <mxPoint x="55" y="350" as="sourcePoint" />
+            <mxPoint x="365" y="350" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P4GT0S7rN5UcusYKCqly-29" value="HTTP status code" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="P4GT0S7rN5UcusYKCqly-28">
+          <mxGeometry x="-0.0355" y="4" relative="1" as="geometry">
+            <mxPoint x="-1" y="-6" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value="ACM" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="440" y="80" width="100" height="650" as="geometry" />
+          <mxGeometry x="440" y="80" width="100" height="760" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
-          <mxGeometry x="45" y="80" width="10" height="570" as="geometry" />
+          <mxGeometry x="45" y="80" width="10" height="680" as="geometry" />
         </mxCell>
-        <mxCell id="P4GT0S7rN5UcusYKCqly-16" value="Create new ledning application" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
-          <mxGeometry x="0.2903" y="-250" relative="1" as="geometry">
+        <mxCell id="P4GT0S7rN5UcusYKCqly-16" value="" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
+          <mxGeometry x="0.129" y="20" relative="1" as="geometry">
             <mxPoint x="-265" y="490" as="sourcePoint" />
             <mxPoint x="45" y="490" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="P4GT0S7rN5UcusYKCqly-17" value="push generated docs to ACM" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="P4GT0S7rN5UcusYKCqly-16">
+        <mxCell id="P4GT0S7rN5UcusYKCqly-17" value="push generated docs to ACM via Filenet ( step 7 )" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="P4GT0S7rN5UcusYKCqly-16">
           <mxGeometry x="-0.0355" y="4" relative="1" as="geometry">
             <mxPoint x="-1" y="-6" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-8" value="Create/Update customer " style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-2" target="3nuBFxr9cyL0pnOWT2aG-6" edge="1">
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-8" value="Create/Update customer ( step 2,3 ) " style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-2" target="3nuBFxr9cyL0pnOWT2aG-6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="275" y="160" as="sourcePoint" />
           </mxGeometry>
@@ -39,29 +51,31 @@
             <mxPoint x="180" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="P4GT0S7rN5UcusYKCqly-1" value="Create new ledning application" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" edge="1" parent="1">
+        <mxCell id="P4GT0S7rN5UcusYKCqly-1" value="Create new lending application ( step 4 )" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="180" y="250.0000000000001" as="sourcePoint" />
             <mxPoint x="490" y="250.0000000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="P4GT0S7rN5UcusYKCqly-2" value="HTTP status code + response" style="verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;shadow=0;strokeWidth=1;" edge="1" parent="1">
+        <mxCell id="P4GT0S7rN5UcusYKCqly-2" value="HTTP status code + response payload" style="verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;shadow=0;strokeWidth=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="485" y="290" as="sourcePoint" />
             <mxPoint x="180" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="P4GT0S7rN5UcusYKCqly-3" value="RM" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="700" y="80" width="100" height="660" as="geometry" />
+          <mxGeometry x="700" y="80" width="100" height="760" as="geometry" />
         </mxCell>
         <mxCell id="P4GT0S7rN5UcusYKCqly-4" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="P4GT0S7rN5UcusYKCqly-3">
-          <mxGeometry x="45" y="80" width="10" height="580" as="geometry" />
+          <mxGeometry x="45" y="80" width="10" height="680" as="geometry" />
         </mxCell>
-        <mxCell id="P4GT0S7rN5UcusYKCqly-6" value="Review application + update application &#xa;status" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="P4GT0S7rN5UcusYKCqly-3" target="3nuBFxr9cyL0pnOWT2aG-5">
+        <mxCell id="P4GT0S7rN5UcusYKCqly-6" value="Review application ( step 5 ) + update application &#xa;status" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="P4GT0S7rN5UcusYKCqly-3" target="3nuBFxr9cyL0pnOWT2aG-5">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="45" y="310" as="sourcePoint" />
             <mxPoint x="-140" y="310" as="targetPoint" />
-            <Array as="points" />
+            <Array as="points">
+              <mxPoint x="-110" y="310" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="P4GT0S7rN5UcusYKCqly-5" value="Send notification for RM to review" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1" target="P4GT0S7rN5UcusYKCqly-3">
@@ -70,17 +84,17 @@
             <mxPoint x="490" y="340.0000000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="P4GT0S7rN5UcusYKCqly-8" value="Application status update" style="verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;shadow=0;strokeWidth=1;" edge="1" parent="1">
+        <mxCell id="P4GT0S7rN5UcusYKCqly-8" value="Application status update ( step 6 )" style="verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;shadow=0;strokeWidth=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="485" y="410" as="sourcePoint" />
             <mxPoint x="180" y="410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="P4GT0S7rN5UcusYKCqly-10" value="Compliance" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="-150" y="80" width="100" height="650" as="geometry" />
+          <mxGeometry x="-150" y="80" width="100" height="760" as="geometry" />
         </mxCell>
         <mxCell id="P4GT0S7rN5UcusYKCqly-11" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="P4GT0S7rN5UcusYKCqly-10">
-          <mxGeometry x="45" y="70" width="10" height="580" as="geometry" />
+          <mxGeometry x="45" y="70" width="10" height="690" as="geometry" />
         </mxCell>
         <mxCell id="P4GT0S7rN5UcusYKCqly-12" value="Send notification for compliance to review" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
@@ -100,7 +114,7 @@
             <mxPoint x="-1" y="-7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="P4GT0S7rN5UcusYKCqly-15" value="Application status update" style="verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;shadow=0;strokeWidth=1;" edge="1" parent="1">
+        <mxCell id="P4GT0S7rN5UcusYKCqly-15" value="Application status update ( step 6 )" style="verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;shadow=0;strokeWidth=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="485" y="520" as="sourcePoint" />
             <mxPoint x="180" y="520" as="targetPoint" />
@@ -108,8 +122,8 @@
         </mxCell>
         <mxCell id="P4GT0S7rN5UcusYKCqly-18" value="Send notification for RM to review" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="180" y="610" as="sourcePoint" />
-            <mxPoint x="749.5" y="610" as="targetPoint" />
+            <mxPoint x="180" y="630" as="sourcePoint" />
+            <mxPoint x="749.5" y="630" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="P4GT0S7rN5UcusYKCqly-19" value="Review application + update application &#xa;status" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
@@ -117,6 +131,78 @@
             <mxPoint x="745.75" y="670" as="sourcePoint" />
             <mxPoint x="490" y="670" as="targetPoint" />
             <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P4GT0S7rN5UcusYKCqly-20" value="Application status update + Halt application in ACM ( step 8 )" style="verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="485" y="710" as="sourcePoint" />
+            <mxPoint x="180" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P4GT0S7rN5UcusYKCqly-21" value="" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry x="0.129" y="20" relative="1" as="geometry">
+            <mxPoint x="180" y="760" as="sourcePoint" />
+            <mxPoint x="490" y="760" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P4GT0S7rN5UcusYKCqly-22" value="Activate application ( step 9 )" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="P4GT0S7rN5UcusYKCqly-21">
+          <mxGeometry x="-0.0355" y="4" relative="1" as="geometry">
+            <mxPoint x="-1" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P4GT0S7rN5UcusYKCqly-23" value="" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry x="0.129" y="20" relative="1" as="geometry">
+            <mxPoint x="180" y="810" as="sourcePoint" />
+            <mxPoint x="490" y="810" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P4GT0S7rN5UcusYKCqly-24" value="Create mitigation ( step 10 )" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="P4GT0S7rN5UcusYKCqly-23">
+          <mxGeometry x="-0.0355" y="4" relative="1" as="geometry">
+            <mxPoint x="-1" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P4GT0S7rN5UcusYKCqly-25" value="HTTP status code" style="verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="485" y="600.0000000000001" as="sourcePoint" />
+            <mxPoint x="180" y="600.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P4GT0S7rN5UcusYKCqly-26" value="HTTP status code" style="verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="485" y="780" as="sourcePoint" />
+            <mxPoint x="180" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P4GT0S7rN5UcusYKCqly-27" value="HTTP status code" style="verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="485" y="830" as="sourcePoint" />
+            <mxPoint x="180" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P4GT0S7rN5UcusYKCqly-30" value="" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry x="0.129" y="20" relative="1" as="geometry">
+            <mxPoint x="180" y="540" as="sourcePoint" />
+            <mxPoint x="490" y="540" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P4GT0S7rN5UcusYKCqly-31" value="HTTP status code" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="P4GT0S7rN5UcusYKCqly-30">
+          <mxGeometry x="-0.0355" y="4" relative="1" as="geometry">
+            <mxPoint x="-1" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P4GT0S7rN5UcusYKCqly-32" value="" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry x="0.129" y="20" relative="1" as="geometry">
+            <mxPoint x="180" y="730" as="sourcePoint" />
+            <mxPoint x="490" y="730" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P4GT0S7rN5UcusYKCqly-33" value="HTTP status code" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="P4GT0S7rN5UcusYKCqly-32">
+          <mxGeometry x="-0.0355" y="4" relative="1" as="geometry">
+            <mxPoint x="-1" y="-6" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
